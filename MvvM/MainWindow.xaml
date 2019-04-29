@@ -13,12 +13,12 @@
         <local:MainWindowViewModel/>
     </Window.DataContext>
 
-    <Window.Resources>
+    <!--<Window.Resources>
         <FrameworkElement x:Key="proxy" DataContext="{Binding }"/>
-    </Window.Resources>
+    </Window.Resources>-->
     
     <Grid>
-        <ContentControl Content="{StaticResource proxy}" Visibility="Collapsed"/>
+        <!--ContentControl Content="{StaticResource proxy}" Visibility="Collapsed"/>-->
         
         <Grid.RowDefinitions>
             <RowDefinition Height="30"/>
